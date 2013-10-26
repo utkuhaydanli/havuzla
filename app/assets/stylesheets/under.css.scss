@@ -1,0 +1,49 @@
+.steps {
+/*border: 1px solid #ccc;*/
+text-align: center;
+font-family: 'Lato', sans-serif;
+}
+
+.steps > div {
+display: inline-block;
+vertical-align: middle;
+}
+
+.step {
+padding: 20px 10px 20px 15px;
+text-align: left;
+}
+
+.step > img {
+vertical-align: middle;
+}
+
+.step > div {
+margin-left: 20px;
+display: inline-block;
+vertical-align: middle;
+max-width: 190px;
+}
+
+.steps h3 {
+font-family: 'Lato', sans-serif;
+color: #585858;
+font-size: 17px;
+line-height: 1.3em;
+font-weight: 700;
+margin: 0;
+}
+
+.homepage#under .step p {
+color: #555555;
+margin: 0;
+font-size: 14px;
+}
+
+.homepage#under .steps .arrow-seperator {
+padding: 0;
+width: 19px;
+height: 100px;
+text-indent: -9999px;
+background: url("arrow_seperator.jpg") center no-repeat;
+}
