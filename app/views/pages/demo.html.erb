@@ -1,0 +1,17 @@
+ <div id="wrapper">
+        
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                
+                <%= image_tag "toystory.jpg" , "data-thumb" => "toystory.jpg", "alt" => "" %>
+                <%= link_to ( image_tag "up.jpg" , "data-thumb" => "up.jpg", "alt" => "", "title" => "This is an example of a caption" ), "http://dev7studios.com" %>
+                <%= image_tag "walle.jpg" , "data-thumb" => "walle.jpg", "alt" => "", "data-transition" => "slideInLeft" %>
+                <%= image_tag "nemo.jpg" , "data-thumb" => "nemo.jpg", "alt" => "", "title" => "#htmlcaption" %>
+            </div>
+
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+        </div>
+
+    </div>

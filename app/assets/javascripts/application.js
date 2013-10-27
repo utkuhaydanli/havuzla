@@ -12,6 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.min
+//= require jquery.nivo.slider
 //= require bootstrap
 //= require turbolinks
 //= require_tree .

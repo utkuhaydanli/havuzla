@@ -4,11 +4,33 @@
 @import 'font-awesome';
 @import 'bootstrap';
 
+
+/* disabled from here for the V2 version
+
+body {
+font-family: 'Lato', sans-serif;
+line-height: 21.9px;	
+}
+
+
 .container {
 	 max-width: 970px;
 	
 }
 
+.navbar-right {
+	font-weight: 700;
+	text-transform: uppercase;
+	float: left;
+	letter-spacing: 1px;
+}
+
+.navbar-brand {
+	font-weight: 900;
+	font-size: 26px;
+	float: left;
+	letter-spacing: 1px;
+}
 
 .btn-huge {
 	
@@ -61,3 +83,47 @@ color: #e0b5ac;
 transition: color 0.2s;
 
 }
+
+
+disabled until here for the V2 version */
+
+
+footer .container {
+font-size: 12px;
+background: #d6d6d6;
+color: #616161;
+margin-top: 20px;
+line-height: 21.9px;
+}
+
+footer #footer_links {
+padding: 15px;
+}
+
+footer #footer_links .links {
+float: left;
+width: 20%;
+line-height: 100%;
+}
+
+footer #footer_links .links a {
+color: #616161;
+text-decoration: none;
+}
+
+footer #footer_links .links a:hover {
+color: #616161;
+text-decoration: underline;
+}
+
+footer #footer_links h3 {
+font-family: 'Lato', sans-serif;
+text-transform: uppercase;
+font-size: 12px;
+line-height: 15px;
+font-weight: 700;
+letter-spacing: 1px;
+margin-top: 0px;
+margin-bottom: 12px;
+}
+

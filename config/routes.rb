@@ -1,6 +1,9 @@
 Havuzla::Application.routes.draw do
   root "pages#HomeV1"
+  get "v2" => "pages#HomeV2"
   get "about" => "pages#about"
+  get "deneme" => "pages#deneme"
+  get "demo" => "pages#demo"
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
