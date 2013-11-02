@@ -1,5 +1,6 @@
 Havuzla::Application.routes.draw do
-  root "pages#HomeV1"
+  devise_for :users
+  root "pages#HomeV2"
   get "v2" => "pages#HomeV2"
   get "about" => "pages#about"
   get "deneme" => "pages#deneme"

@@ -77,4 +77,8 @@ Havuzla::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  # Required for heroku. Dont forget to change the server name in production
+  config.action_mailer.default_url_options = { :host => 'havuzla.com' }
+
 end
